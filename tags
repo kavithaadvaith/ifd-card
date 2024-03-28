@@ -1,0 +1,614 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACCInfo	include/Txn_card_code.h	/^typedef struct ACCInfo \/* Added by KiranP 27-02-2007 *\/$/;"	s
+ACC_INFO_FARME_FAIL	include/error_codes.h	38;"	d
+ACC_LEN	include/Txn_card_code.h	71;"	d
+AccBasicDet	include/Txn_card_code.h	/^typedef struct AccBasicDet \/* Modified by KiranP 27-02-2007, changed CardBasicDet to AccBasicDet *\/$/;"	s
+AccGenDet	include/Txn_card_code.h	/^typedef struct AccGenDet \/* Modified by KiranP 27-02-2007, changed CardGenDet to AccGenDet *\/$/;"	s
+AccType	include/Txn_card_code.h	/^typedef enum AccType$/;"	g
+Additional_group_info	include/Txn_card_code.h	/^typedef struct Additional_group_info $/;"	s
+BANK_ACC_LEN	include/Txn_card_code.h	79;"	d
+BASE_APP_DIR	include/ipd_base.h	35;"	d
+BASE_APP_DIR	include/ipd_base.h	38;"	d
+BASE_CONF_DIR	include/ipd_base.h	36;"	d
+BASE_CONF_DIR	include/ipd_base.h	39;"	d
+BASE_H	include/ipd_base.h	27;"	d
+BC_INTSAM	include/Txn_card_code.h	/^enum cards{MIFARE_CARD=1, SMARTMX_1, SMARTMX_2, SMARTMX_3, SCOSTA, BC_SAM, BC_INTSAM, DESFIRE};$/;"	e	enum:cards
+BC_SAM	include/Txn_card_code.h	/^enum cards{MIFARE_CARD=1, SMARTMX_1, SMARTMX_2, SMARTMX_3, SCOSTA, BC_SAM, BC_INTSAM, DESFIRE};$/;"	e	enum:cards
+Baudconfig	include/ipd_Serial.h	/^typedef enum Baudconfig $/;"	g
+CARDNO_LEN	include/Txn_card_code.h	76;"	d
+CARD_EMPTY	include/ipi_Rfiderror.h	163;"	d
+CARD_NOT_EMPTY	include/ipi_Rfiderror.h	164;"	d
+CC	Makefile	/^CC = arm-none-linux-gnueabi-gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -Iinclude$/;"	m
+CONTACTLESS_CARD	include/Txn_card_code.h	/^	CONTACTLESS_CARD,$/;"	e	enum:__anon1
+CONTACT_CARD	include/Txn_card_code.h	/^	CONTACT_CARD = 1,$/;"	e	enum:__anon1
+CardGlobalErrCode	src/Txn_card_code.c	/^IC_UINT32 CardGlobalErrCode;$/;"	v
+CardInfo	include/Txn_card_code.h	/^typedef struct CardInfo \/* Added by KiranP 27-02-2007 *\/$/;"	s
+CardTransmit	src/Txn_card_code.c	/^IC_RETCODE CardTransmit( IC_UINT32 fd, IC_UINT8 *bSendBuffer, IC_UINT32 txlength,IC_UINT8 *bRecvBuffer, IC_UINT32 *rxlength )$/;"	f
+CardType	include/Txn_card_code.h	/^	IC_UINT32 CardType;$/;"	m	struct:dev_handle
+CardType	include/Txn_card_code.h	/^	unsigned int CardType;$/;"	m	struct:rfid_dev_handle
+CheckIfCardPresent	src/Txn_card_code.c	/^int CheckIfCardPresent()$/;"	f
+Chsizeconfig	include/ipd_Serial.h	/^typedef enum Chsizeconfig $/;"	g
+ConfigurePort	include/ipd_Serial.h	/^typedef struct ConfigurePort $/;"	s
+ConnType	include/ipd_Serial.h	/^typedef enum ConnType $/;"	g
+ContactCardPowerOff	src/Txn_card_code.c	/^IC_RETCODE  ContactCardPowerOff ( IC_VOID *pst_dev_handle )$/;"	f
+ContactCardPowerUp	src/Txn_card_code.c	/^IC_RETCODE  ContactCardPowerUp ( IC_VOID *pst_dev_handle )$/;"	f
+ContactGetCardList	src/Txn_card_code.c	/^IC_RETCODE  ContactGetCardList ( IC_VOID *pst_dev_handle, IC_UINT8 *bufferuids, IC_UINT32 *pi_length )$/;"	f
+ContactInit	src/Txn_card_code.c	/^IC_RETCODE ContactInit ( IC_VOID *pst_dev_handle, E_DEVTYPE devtype )$/;"	f
+ContactSerialDeInit	src/Txn_card_code.c	/^IC_RETCODE ContactSerialDeInit ( IC_VOID *pst_dev_handle)$/;"	f
+ContactSerialGetCardList	src/Txn_card_code.c	/^IC_RETCODE  ContactSerialGetCardList ( IC_VOID *pst_dev_handle, IC_UINT8 *bufferuids, IC_UINT32 *pi_length )$/;"	f
+ContactSerialInit_imts_v511	src/Txn_card_code.c	/^IC_RETCODE ContactSerialInit_imts_v511 ( IC_VOID *pst_dev_handle, E_DEVTYPE devtype)$/;"	f
+CtSendData	src/Txn_card_code.c	/^IC_INT32 CtSendData( IC_VOID *pst_dev_handle, IC_UINT8 *Buffer, IC_UINT8 *ReadBuff, IC_UINT32 bytes )$/;"	f
+CtSerHandle	src/Txn_card_code.c	/^static ST_DEV_HANDLE CtSerHandle;$/;"	v	file:
+CtSerialHandle	src/Txn_card_code.c	/^static ST_DEV_HANDLE *CtSerialHandle = (ST_DEV_HANDLE *) &CtSerHandle;$/;"	v	file:
+DATA_FRAME	include/Txn_card_code.h	58;"	d
+DESFIRE	include/Txn_card_code.h	/^enum cards{MIFARE_CARD=1, SMARTMX_1, SMARTMX_2, SMARTMX_3, SCOSTA, BC_SAM, BC_INTSAM, DESFIRE};$/;"	e	enum:cards
+Delay	src/Txn_card_code.c	/^static void Delay(IC_INT64 l_nsec)$/;"	f	file:
+ERROR_CODES_H	include/error_codes.h	2;"	d
+ERR_GAT_CARD_LIST_FAILED	include/Txn_card_code.h	36;"	d
+ERR_IMPROPER_KEY_LEN	include/error_codes.h	11;"	d
+ERR_KEY_EX_SERVER	include/error_codes.h	13;"	d
+ERR_KEY_UPDATE_FAIL	include/error_codes.h	12;"	d
+EXE_DIR	Makefile	/^EXE_DIR = exe$/;"	m
+EXPDATE_LEN	include/Txn_card_code.h	73;"	d
+E_ACCSTAT	include/Txn_card_code.h	/^}E_ACCSTAT;$/;"	t	typeref:enum:eACCStat
+E_ACCTYPE	include/Txn_card_code.h	/^} E_ACCTYPE;$/;"	t	typeref:enum:AccType
+E_ACTIVE	include/Txn_card_code.h	/^	E_ACTIVE = 1,$/;"	e	enum:eACCStat
+E_ADMIN	include/Txn_card_code.h	/^	E_ADMIN,$/;"	e	enum:eCardType
+E_BAUDCONFIG	include/ipd_Serial.h	/^}E_BAUDCONFIG;$/;"	t	typeref:enum:Baudconfig
+E_BC_ONL_DEP	include/Txn_card_code.h	/^	E_BC_ONL_DEP$/;"	e	enum:eReqTyp
+E_BC_ONL_WD	include/Txn_card_code.h	/^	E_BC_ONL_WD,$/;"	e	enum:eReqTyp
+E_BD0	include/ipd_Serial.h	/^	E_BD0,$/;"	e	enum:Baudconfig
+E_BD110	include/ipd_Serial.h	/^	E_BD110,$/;"	e	enum:Baudconfig
+E_BD115200	include/ipd_Serial.h	/^	E_BD115200$/;"	e	enum:Baudconfig
+E_BD1200	include/ipd_Serial.h	/^	E_BD1200,$/;"	e	enum:Baudconfig
+E_BD134	include/ipd_Serial.h	/^	E_BD134,$/;"	e	enum:Baudconfig
+E_BD150	include/ipd_Serial.h	/^	E_BD150,$/;"	e	enum:Baudconfig
+E_BD1800	include/ipd_Serial.h	/^	E_BD1800,$/;"	e	enum:Baudconfig
+E_BD19200	include/ipd_Serial.h	/^	E_BD19200,$/;"	e	enum:Baudconfig
+E_BD200	include/ipd_Serial.h	/^	E_BD200,$/;"	e	enum:Baudconfig
+E_BD2400	include/ipd_Serial.h	/^	E_BD2400,$/;"	e	enum:Baudconfig
+E_BD300	include/ipd_Serial.h	/^	E_BD300,$/;"	e	enum:Baudconfig
+E_BD38400	include/ipd_Serial.h	/^	E_BD38400,$/;"	e	enum:Baudconfig
+E_BD4800	include/ipd_Serial.h	/^	E_BD4800,$/;"	e	enum:Baudconfig
+E_BD50	include/ipd_Serial.h	/^	E_BD50,$/;"	e	enum:Baudconfig
+E_BD57600	include/ipd_Serial.h	/^	E_BD57600 = 4097,$/;"	e	enum:Baudconfig
+E_BD600	include/ipd_Serial.h	/^	E_BD600,$/;"	e	enum:Baudconfig
+E_BD75	include/ipd_Serial.h	/^	E_BD75,$/;"	e	enum:Baudconfig
+E_BD9600	include/ipd_Serial.h	/^	E_BD9600,$/;"	e	enum:Baudconfig
+E_BLOCKED	include/Txn_card_code.h	/^	E_BLOCKED,$/;"	e	enum:eACCStat
+E_BRANCH_MERCH	include/Txn_card_code.h	/^	E_BRANCH_MERCH    $/;"	e	enum:eCardType
+E_CARDSTAT	include/Txn_card_code.h	/^}E_CARDSTAT;$/;"	t	typeref:enum:eCardStat
+E_CARDTYPE	include/Txn_card_code.h	/^}E_CARDTYPE;$/;"	t	typeref:enum:eCardType
+E_CARD_ACTIVE	include/Txn_card_code.h	/^	E_CARD_ACTIVE = 1,$/;"	e	enum:eCardStat
+E_CARD_ACTIVE_FAIL	include/Txn_card_code.h	/^	E_CARD_ACTIVE_FAIL$/;"	e	enum:eCardStat
+E_CARD_BLOCKED	include/Txn_card_code.h	/^	E_CARD_BLOCKED,$/;"	e	enum:eCardStat
+E_CARD_DEPT	include/Txn_card_code.h	/^	E_CARD_DEPT = 0x0001,$/;"	e	enum:AccType
+E_CARD_FP_ABSENT	include/Txn_card_code.h	/^	E_CARD_FP_ABSENT,$/;"	e	enum:eCardStat
+E_CARD_FP_PRESENT	include/Txn_card_code.h	/^	E_CARD_FP_PRESENT,$/;"	e	enum:eCardStat
+E_CARD_LOAN	include/Txn_card_code.h	/^	E_CARD_LOAN = 0x0002,$/;"	e	enum:AccType
+E_CHSIZECONFIG	include/ipd_Serial.h	/^}E_CHSIZECONFIG; 			\/\/ data size$/;"	t	typeref:enum:Chsizeconfig
+E_CH_EIGHT	include/ipd_Serial.h	/^	E_CH_EIGHT$/;"	e	enum:Chsizeconfig
+E_CH_FIVE	include/ipd_Serial.h	/^	E_CH_FIVE,$/;"	e	enum:Chsizeconfig
+E_CH_SEVEN	include/ipd_Serial.h	/^	E_CH_SEVEN,$/;"	e	enum:Chsizeconfig
+E_CH_SIX	include/ipd_Serial.h	/^	E_CH_SIX,$/;"	e	enum:Chsizeconfig
+E_CLOSED	include/Txn_card_code.h	/^	E_CLOSED$/;"	e	enum:eACCStat
+E_CREDIT_FREEZE	include/Txn_card_code.h	/^	E_CREDIT_FREEZE,  \/\/added on 01-08-07$/;"	e	enum:eACCStat
+E_CREDIT_FREEZE_TAG	include/Txn_card_code.h	/^	E_CREDIT_FREEZE_TAG,     \/\/ added on 01-08-07$/;"	e	enum:eACCStat
+E_CR_DB_FREEZE	include/Txn_card_code.h	/^	E_CR_DB_FREEZE,          \/\/ added on 01-08-07$/;"	e	enum:eACCStat
+E_CR_DB_FREEZE_TAG	include/Txn_card_code.h	/^	E_CR_DB_FREEZE_TAG,      \/\/ added on 01-08-07$/;"	e	enum:eACCStat
+E_ConnType	include/ipd_Serial.h	/^	}E_ConnType;$/;"	t	typeref:enum:ConnType
+E_DBN	include/Txn_card_code.h	/^	E_DBN,$/;"	e	enum:eReqTyp
+E_DEBIT_FREEZE	include/Txn_card_code.h	/^	E_DEBIT_FREEZE,   \/\/added on 01-08-07$/;"	e	enum:eACCStat
+E_DEBIT_FREEZE_TAG	include/Txn_card_code.h	/^	E_DEBIT_FREEZE_TAG,      \/\/ added on 01-08-07$/;"	e	enum:eACCStat
+E_DEN	include/Txn_card_code.h	/^	E_DEN,$/;"	e	enum:eReqTyp
+E_DEVTYPE	include/Txn_card_code.h	/^}E_DEVTYPE;$/;"	t	typeref:enum:devtype
+E_DISBURSE_CLOSE	include/Txn_card_code.h	/^	E_DISBURSE_CLOSE,$/;"	e	enum:eReqTyp
+E_DISBURSE_START	include/Txn_card_code.h	/^	E_DISBURSE_START,$/;"	e	enum:eReqTyp
+E_EN_NOR	include/ipd_base.h	/^	E_EN_NOR,	\/* Normal Enrollment *\/$/;"	e	enum:__anon2
+E_EN_WOC	include/ipd_base.h	/^	E_EN_WOC,	\/* Exec WithOut Card Enrollment *\/$/;"	e	enum:__anon2
+E_EN_WPC	include/ipd_base.h	/^	E_EN_WPC,	\/* Exec Physical With Card Enrollment *\/$/;"	e	enum:__anon2
+E_EN_WVC	include/ipd_base.h	/^	E_EN_WVC	\/* Exec Virtual With Card Enrollment *\/$/;"	e	enum:__anon2
+E_EOR	include/Txn_card_code.h	/^	E_EOR,$/;"	e	enum:eReqStat
+E_EXEC_ENROLL_TYPE	include/ipd_base.h	/^}E_EXEC_ENROLL_TYPE;$/;"	t	typeref:enum:__anon2
+E_GNOME	include/Txn_card_code.h	/^	E_GNOME$/;"	e	enum:devtype
+E_GOV	include/Txn_card_code.h	/^	E_GOV$/;"	e	enum:AccType
+E_HWFLOWCONTROLCONFIG	include/ipd_Serial.h	/^}E_HWFLOWCONTROLCONFIG ;		\/\/ hardware flow control $/;"	t	typeref:enum:Hwflowcontrolconfig
+E_HW_FLOW_DISABLE	include/ipd_Serial.h	/^	E_HW_FLOW_DISABLE,$/;"	e	enum:Hwflowcontrolconfig
+E_HW_FLOW_ENABLE	include/ipd_Serial.h	/^	E_HW_FLOW_ENABLE$/;"	e	enum:Hwflowcontrolconfig
+E_IMTS	include/Txn_card_code.h	/^	E_IMTS,$/;"	e	enum:devtype
+E_IMTS_V511	include/Txn_card_code.h	/^	E_IMTS_V511,$/;"	e	enum:devtype
+E_INIT	include/Txn_card_code.h	/^	E_INIT,$/;"	e	enum:eReqStat
+E_MERCH	include/Txn_card_code.h	/^	E_MERCH,   $/;"	e	enum:eCardType
+E_OFFLINE	include/Txn_card_code.h	/^	E_OFFLINE,  \/\/added by rajendra 10.07.07$/;"	e	enum:eReqTyp
+E_OFLSBL	include/Txn_card_code.h	/^	E_OFLSBL,$/;"	e	enum:eReqTyp
+E_ONLINE	include/Txn_card_code.h	/^	E_ONLINE,  \/\/added by rajendra 10.07.07$/;"	e	enum:eReqTyp
+E_ONL_DEP	include/Txn_card_code.h	/^	E_ONL_DEP, \/* Online Transaction Type is deposit *\/$/;"	e	enum:eReqTyp
+E_ONL_WD	include/Txn_card_code.h	/^	E_ONL_WD, \/* Online Transaction Type is withdraw *\/$/;"	e	enum:eReqTyp
+E_OPENING_MODE	include/ipd_Serial.h	/^}E_OPENING_MODE;$/;"	t	typeref:enum:OpeningMode
+E_PARITYCONFIG	include/ipd_Serial.h	/^}E_PARITYCONFIG;		\/\/ parity bit$/;"	t	typeref:enum:Parityconfig
+E_PARITY_EVEN	include/ipd_Serial.h	/^	E_PARITY_EVEN$/;"	e	enum:Parityconfig
+E_PARITY_NONE	include/ipd_Serial.h	/^	E_PARITY_NONE,$/;"	e	enum:Parityconfig
+E_PARITY_ODD	include/ipd_Serial.h	/^	E_PARITY_ODD,$/;"	e	enum:Parityconfig
+E_PAYMENT_CLOSE	include/Txn_card_code.h	/^	E_PAYMENT_CLOSE,$/;"	e	enum:eReqTyp
+E_PAYMENT_START	include/Txn_card_code.h	/^	E_PAYMENT_START,$/;"	e	enum:eReqTyp
+E_PEND	include/Txn_card_code.h	/^	E_PEND,$/;"	e	enum:eReqStat
+E_PUSH	include/Txn_card_code.h	/^	E_PUSH$/;"	e	enum:eReqStat
+E_REQSTAT	include/Txn_card_code.h	/^}E_REQSTAT;$/;"	t	typeref:enum:eReqStat
+E_REQTYP	include/Txn_card_code.h	/^}E_REQTYP;$/;"	t	typeref:enum:eReqTyp
+E_SBL	include/Txn_card_code.h	/^	E_SBL,$/;"	e	enum:eReqTyp
+E_SERIAL	include/ipd_Serial.h	/^		E_SERIAL,$/;"	e	enum:ConnType
+E_SERIAL_BLOCKING	include/ipd_Serial.h	/^		E_SERIAL_BLOCKING,$/;"	e	enum:OpeningMode
+E_SERIAL_NONBLOCKING	include/ipd_Serial.h	/^		E_SERIAL_NONBLOCKING$/;"	e	enum:OpeningMode
+E_SHG_AEPS_WITHDRAW	include/Txn_card_code.h	/^	E_SHG_AEPS_WITHDRAW, \/\/For shg Double auth -ganesha$/;"	e	enum:eTransType
+E_STOPBITCONFIG	include/ipd_Serial.h	/^}E_STOPBITCONFIG;		\/\/enum for stop bit$/;"	t	typeref:enum:Stopbitconfig
+E_STOP_1	include/ipd_Serial.h	/^	E_STOP_1,$/;"	e	enum:Stopbitconfig
+E_STOP_1_5	include/ipd_Serial.h	/^	E_STOP_1_5,$/;"	e	enum:Stopbitconfig
+E_STOP_2	include/ipd_Serial.h	/^	E_STOP_2,$/;"	e	enum:Stopbitconfig
+E_STOP_RES	include/ipd_Serial.h	/^	E_STOP_RES$/;"	e	enum:Stopbitconfig
+E_SWFLOWCONTROLCONFIG	include/ipd_Serial.h	/^}E_SWFLOWCONTROLCONFIG ;		\/\/software flow control$/;"	t	typeref:enum:Swflowcontrolconfig
+E_SW_FLOW_DISABLE	include/ipd_Serial.h	/^	E_SW_FLOW_DISABLE,$/;"	e	enum:Swflowcontrolconfig
+E_SW_FLOW_ENABLE	include/ipd_Serial.h	/^	E_SW_FLOW_ENABLE$/;"	e	enum:Swflowcontrolconfig
+E_TRANSTYPE	include/Txn_card_code.h	/^}E_TRANSTYPE;$/;"	t	typeref:enum:eTransType
+E_USB	include/ipd_Serial.h	/^		E_USB $/;"	e	enum:ConnType
+E_USR	include/Txn_card_code.h	/^	E_USR,     $/;"	e	enum:eCardType
+FIRST_AUTH_FARME_FAIL	include/error_codes.h	39;"	d
+FIRST_AUTH_PARSE_FAIL	include/error_codes.h	40;"	d
+GETCARD_RESPONSE	include/Txn_card_code.h	51;"	d
+GETCARD_RESPONSE_LEN	include/Txn_card_code.h	52;"	d
+GL11_H	include/gl11.h	17;"	d
+GetCardResponse	src/Txn_card_code.c	/^IC_RETCODE GetCardResponse( IC_VOID *pst_dev_handle, IC_UINT8 *ResponseBuffer, IC_UINT8 ByteToRead )$/;"	f
+Hwflowcontrolconfig	include/ipd_Serial.h	/^typedef enum Hwflowcontrolconfig $/;"	g
+ICC_COND_NOT_SATISFIED	include/ipi_Rfiderror.h	170;"	d
+ICC_ERR	include/Txn_card_code.h	60;"	d
+ICC_ERR	include/ipi_Rfiderror.h	143;"	d
+ICC_ERR_ACC_COUNT	include/ipi_Rfiderror.h	83;"	d
+ICC_ERR_ACK	include/ipi_Rfiderror.h	84;"	d
+ICC_ERR_ACK_SWITCH_OFF	include/ipi_Rfiderror.h	95;"	d
+ICC_ERR_ACK_SWITCH_ON	include/ipi_Rfiderror.h	99;"	d
+ICC_ERR_ACTIVATE_FS	include/ipi_Rfiderror.h	204;"	d
+ICC_ERR_AUTH	include/ipi_Rfiderror.h	154;"	d
+ICC_ERR_AUTH_CARD	include/ipi_Rfiderror.h	203;"	d
+ICC_ERR_BBC_CARD_LIST	include/ipi_Rfiderror.h	182;"	d
+ICC_ERR_BBC_CARD_TYPE	include/ipi_Rfiderror.h	186;"	d
+ICC_ERR_BBC_CNF	include/ipi_Rfiderror.h	187;"	d
+ICC_ERR_BBC_EXTRA_CARD	include/ipi_Rfiderror.h	183;"	d
+ICC_ERR_BBC_INVALID	include/ipi_Rfiderror.h	190;"	d
+ICC_ERR_BBC_NO_CARD	include/ipi_Rfiderror.h	184;"	d
+ICC_ERR_BBC_POWER_UP	include/ipi_Rfiderror.h	188;"	d
+ICC_ERR_BBC_SELECT_FAIL	include/ipi_Rfiderror.h	185;"	d
+ICC_ERR_BBC_SEL_APP	include/ipi_Rfiderror.h	189;"	d
+ICC_ERR_BC_CARD_LIST	include/ipi_Rfiderror.h	172;"	d
+ICC_ERR_BC_CARD_TYPE	include/ipi_Rfiderror.h	176;"	d
+ICC_ERR_BC_CNF	include/ipi_Rfiderror.h	177;"	d
+ICC_ERR_BC_EXTRA_CARD	include/ipi_Rfiderror.h	173;"	d
+ICC_ERR_BC_INVALID	include/ipi_Rfiderror.h	180;"	d
+ICC_ERR_BC_NO_CARD	include/ipi_Rfiderror.h	174;"	d
+ICC_ERR_BC_POWER_UP	include/ipi_Rfiderror.h	178;"	d
+ICC_ERR_BC_SELECT_FAIL	include/ipi_Rfiderror.h	175;"	d
+ICC_ERR_BC_SEL_APP	include/ipi_Rfiderror.h	179;"	d
+ICC_ERR_BINARY_CMD_WRITE	include/ipi_Rfiderror.h	81;"	d
+ICC_ERR_CALCHECKSUM	include/ipi_Rfiderror.h	153;"	d
+ICC_ERR_CARD_ABSENT	include/Txn_card_code.h	30;"	d
+ICC_ERR_CARD_ABSENT	include/ipi_Rfiderror.h	130;"	d
+ICC_ERR_CARD_DEAVTIVE	include/Txn_card_code.h	39;"	d
+ICC_ERR_CARD_DEAVTIVE	include/ipi_Rfiderror.h	168;"	d
+ICC_ERR_CARD_INFO	include/ipi_Rfiderror.h	85;"	d
+ICC_ERR_CARD_INVALID_CHOICE	include/ipi_Rfiderror.h	109;"	d
+ICC_ERR_CARD_LIST	include/ipi_Rfiderror.h	41;"	d
+ICC_ERR_CARD_NOT_PRESENT	include/ipi_Rfiderror.h	116;"	d
+ICC_ERR_CARD_POWERUP	include/Txn_card_code.h	31;"	d
+ICC_ERR_CARD_POWERUP	include/ipi_Rfiderror.h	131;"	d
+ICC_ERR_CARD_SELECT	include/ipi_Rfiderror.h	104;"	d
+ICC_ERR_CARD_TYPE	include/ipi_Rfiderror.h	112;"	d
+ICC_ERR_CHKSUM	include/ipi_Rfiderror.h	137;"	d
+ICC_ERR_CMDREAD_WRITE	include/ipi_Rfiderror.h	22;"	d
+ICC_ERR_CMDWRITE_READ	include/ipi_Rfiderror.h	24;"	d
+ICC_ERR_CMD_APPLET	include/ipi_Rfiderror.h	115;"	d
+ICC_ERR_CMD_AUTH_TXP	include/ipi_Rfiderror.h	87;"	d
+ICC_ERR_CMD_CARD_FAILURE	include/ipi_Rfiderror.h	146;"	d
+ICC_ERR_CMD_CHIP_SERIAL_NUM	include/Txn_card_code.h	40;"	d
+ICC_ERR_CMD_CHIP_SERIAL_NUM	include/ipi_Rfiderror.h	141;"	d
+ICC_ERR_CMD_PN65	include/ipi_Rfiderror.h	147;"	d
+ICC_ERR_CMD_PN65_FAIL	include/ipi_Rfiderror.h	140;"	d
+ICC_ERR_CMD_READ	include/ipi_Rfiderror.h	23;"	d
+ICC_ERR_CMD_READ_TXP	include/ipi_Rfiderror.h	89;"	d
+ICC_ERR_CMD_SELECT_MASTER_FILE	include/ipi_Rfiderror.h	145;"	d
+ICC_ERR_CMD_WRITE	include/ipi_Rfiderror.h	25;"	d
+ICC_ERR_CMD_WRITE_TXP	include/ipi_Rfiderror.h	90;"	d
+ICC_ERR_CNT_CMD	include/Txn_card_code.h	55;"	d
+ICC_ERR_CNT_CMD	include/ipi_Rfiderror.h	134;"	d
+ICC_ERR_COMMAND_READ_BLOCK	include/ipi_Rfiderror.h	55;"	d
+ICC_ERR_COMMAND_READ_VALUE	include/ipi_Rfiderror.h	48;"	d
+ICC_ERR_COMMAND_WRITE_BLOCK	include/ipi_Rfiderror.h	56;"	d
+ICC_ERR_COMMAND_WRITE_DECREMENT	include/ipi_Rfiderror.h	53;"	d
+ICC_ERR_COMMAND_WRITE_VALUE	include/ipi_Rfiderror.h	50;"	d
+ICC_ERR_COMMAND_WRITE_VALUE_INCREMENT	include/ipi_Rfiderror.h	51;"	d
+ICC_ERR_CONTACT_SERIAL_INIT	include/Txn_card_code.h	33;"	d
+ICC_ERR_CONTACT_SERIAL_INIT	include/ipi_Rfiderror.h	135;"	d
+ICC_ERR_CRC_CARD_LIST	include/ipi_Rfiderror.h	42;"	d
+ICC_ERR_CRC_READ_BLOCK	include/ipi_Rfiderror.h	38;"	d
+ICC_ERR_CREATE_FILE_SYTEM	include/ipi_Rfiderror.h	199;"	d
+ICC_ERR_CRYPTO	include/ipi_Rfiderror.h	121;"	d
+ICC_ERR_DATA_CHECK_SUM	include/ipi_Rfiderror.h	150;"	d
+ICC_ERR_DECRYPTION	include/ipi_Rfiderror.h	123;"	d
+ICC_ERR_DEVICE_FILE	include/ipi_Rfiderror.h	4;"	d
+ICC_ERR_ENCRYPTION	include/ipi_Rfiderror.h	122;"	d
+ICC_ERR_FILE_NOT_FOUND	include/ipi_Rfiderror.h	165;"	d
+ICC_ERR_FILE_OPEN	include/ipi_Rfiderror.h	158;"	d
+ICC_ERR_FILE_READ	include/ipi_Rfiderror.h	159;"	d
+ICC_ERR_FILE_SIZE	include/ipi_Rfiderror.h	160;"	d
+ICC_ERR_FP	include/ipi_Rfiderror.h	156;"	d
+ICC_ERR_IMPROPER_DATA	include/ipi_Rfiderror.h	196;"	d
+ICC_ERR_INSUFFICIENT_SPACE	include/ipi_Rfiderror.h	44;"	d
+ICC_ERR_INVALID_ACCOUNT	include/ipi_Rfiderror.h	76;"	d
+ICC_ERR_INVALID_BALANCE	include/ipi_Rfiderror.h	77;"	d
+ICC_ERR_INVALID_BLOCKNUMBER	include/ipi_Rfiderror.h	45;"	d
+ICC_ERR_INVALID_COUNT	include/ipi_Rfiderror.h	79;"	d
+ICC_ERR_INVALID_CRC_AUTH_TXP	include/ipi_Rfiderror.h	88;"	d
+ICC_ERR_INVALID_CRC_CONFIG	include/ipi_Rfiderror.h	120;"	d
+ICC_ERR_INVALID_CRC_DECREMENT_VALUE	include/ipi_Rfiderror.h	62;"	d
+ICC_ERR_INVALID_CRC_FS_TXP	include/ipi_Rfiderror.h	31;"	d
+ICC_ERR_INVALID_CRC_GETCARDLIST	include/ipi_Rfiderror.h	105;"	d
+ICC_ERR_INVALID_CRC_INCREMENT_VALUE	include/ipi_Rfiderror.h	61;"	d
+ICC_ERR_INVALID_CRC_READ	include/ipi_Rfiderror.h	35;"	d
+ICC_ERR_INVALID_CRC_READER_INFO	include/ipi_Rfiderror.h	26;"	d
+ICC_ERR_INVALID_CRC_READ_BLOCK	include/ipi_Rfiderror.h	57;"	d
+ICC_ERR_INVALID_CRC_READ_VALUE	include/ipi_Rfiderror.h	59;"	d
+ICC_ERR_INVALID_CRC_SEARCH_TXP	include/ipi_Rfiderror.h	28;"	d
+ICC_ERR_INVALID_CRC_SEG_INFO_TXP	include/ipi_Rfiderror.h	33;"	d
+ICC_ERR_INVALID_CRC_SELECT_SEG_TXP	include/ipi_Rfiderror.h	32;"	d
+ICC_ERR_INVALID_CRC_SEL_TXP	include/ipi_Rfiderror.h	29;"	d
+ICC_ERR_INVALID_CRC_SETAPPL	include/ipi_Rfiderror.h	34;"	d
+ICC_ERR_INVALID_CRC_STANDARD	include/ipi_Rfiderror.h	27;"	d
+ICC_ERR_INVALID_CRC_SWITCH_OFF	include/ipi_Rfiderror.h	97;"	d
+ICC_ERR_INVALID_CRC_SWITCH_ON	include/ipi_Rfiderror.h	101;"	d
+ICC_ERR_INVALID_CRC_TXP_INFO	include/ipi_Rfiderror.h	30;"	d
+ICC_ERR_INVALID_CRC_WRITE	include/ipi_Rfiderror.h	36;"	d
+ICC_ERR_INVALID_CRC_WRITE_BLOCK	include/ipi_Rfiderror.h	58;"	d
+ICC_ERR_INVALID_CRC_WRITE_VALUE	include/ipi_Rfiderror.h	60;"	d
+ICC_ERR_INVALID_HANDLE	include/ipi_Rfiderror.h	148;"	d
+ICC_ERR_INVALID_IMAGE	include/ipi_Rfiderror.h	78;"	d
+ICC_ERR_INVALID_MERACC_NUM	include/ipi_Rfiderror.h	68;"	d
+ICC_ERR_INVALID_MERID_NUM	include/ipi_Rfiderror.h	82;"	d
+ICC_ERR_INVALID_MER_CARD	include/ipi_Rfiderror.h	72;"	d
+ICC_ERR_INVALID_NO_OF_PEOPLE_COUNT	include/ipi_Rfiderror.h	208;"	d
+ICC_ERR_INVALID_PARAMETER	include/ipi_Rfiderror.h	142;"	d
+ICC_ERR_INVALID_SECTOR	include/ipi_Rfiderror.h	124;"	d
+ICC_ERR_INVALID_TELNO	include/ipi_Rfiderror.h	74;"	d
+ICC_ERR_INVALID_TERMINAL_NUM	include/ipi_Rfiderror.h	80;"	d
+ICC_ERR_INVALID_TID	include/ipi_Rfiderror.h	67;"	d
+ICC_ERR_INVALID_TLC_ID	include/ipi_Rfiderror.h	73;"	d
+ICC_ERR_INVALID_USERACC_NUM	include/ipi_Rfiderror.h	69;"	d
+ICC_ERR_INVALID_USER_CARD	include/ipi_Rfiderror.h	71;"	d
+ICC_ERR_INVALID_WRITE_ALIGNMENT	include/ipi_Rfiderror.h	64;"	d
+ICC_ERR_LEN	include/ipi_Rfiderror.h	86;"	d
+ICC_ERR_LEN_CHECK_SUM	include/ipi_Rfiderror.h	149;"	d
+ICC_ERR_LEN_CONFIG	include/ipi_Rfiderror.h	119;"	d
+ICC_ERR_LEN_SWITCH_OFF	include/ipi_Rfiderror.h	96;"	d
+ICC_ERR_LEN_SWITCH_ON	include/ipi_Rfiderror.h	100;"	d
+ICC_ERR_LOADING_DATA_CARD	include/ipi_Rfiderror.h	201;"	d
+ICC_ERR_LOGIN_COMMAND_WRITE	include/ipi_Rfiderror.h	37;"	d
+ICC_ERR_LOGIN_TXP	include/ipi_Rfiderror.h	39;"	d
+ICC_ERR_MEMORY	include/ipi_Rfiderror.h	125;"	d
+ICC_ERR_MEMORY_SPACE	include/ipi_Rfiderror.h	75;"	d
+ICC_ERR_MUTUAL_AUTH	include/ipi_Rfiderror.h	155;"	d
+ICC_ERR_NFC_BAUD	include/ipi_Rfiderror.h	144;"	d
+ICC_ERR_NFC_CONFIG	include/ipi_Rfiderror.h	118;"	d
+ICC_ERR_NFC_SWITCH_OFF	include/ipi_Rfiderror.h	102;"	d
+ICC_ERR_NFC_SWITCH_OFF_CMD	include/ipi_Rfiderror.h	94;"	d
+ICC_ERR_NFC_SWITCH_ON	include/ipi_Rfiderror.h	103;"	d
+ICC_ERR_NFC_SWITCH_ON_CMD	include/ipi_Rfiderror.h	98;"	d
+ICC_ERR_NOCARDFOUND	include/ipi_Rfiderror.h	136;"	d
+ICC_ERR_NO_MEMORY_SPACE	include/ipi_Rfiderror.h	63;"	d
+ICC_ERR_NO_TRANSPONDER	include/ipi_Rfiderror.h	5;"	d
+ICC_ERR_PIN_FAILURE	include/ipi_Rfiderror.h	151;"	d
+ICC_ERR_PROPER_CARD	include/ipi_Rfiderror.h	195;"	d
+ICC_ERR_READ_BLOCK	include/ipi_Rfiderror.h	40;"	d
+ICC_ERR_READ_COMMAND_WRITE	include/ipi_Rfiderror.h	47;"	d
+ICC_ERR_READ_DESFIRE	include/ipi_Rfiderror.h	192;"	d
+ICC_ERR_READ_EEPROM	include/ipi_Rfiderror.h	128;"	d
+ICC_ERR_READ_FSINFO	include/ipi_Rfiderror.h	19;"	d
+ICC_ERR_READ_MIFARE	include/ipi_Rfiderror.h	108;"	d
+ICC_ERR_READ_SEARCH_TXP	include/ipi_Rfiderror.h	13;"	d
+ICC_ERR_READ_SELECT_SEGMENT	include/ipi_Rfiderror.h	21;"	d
+ICC_ERR_READ_SELECT_TXP	include/ipi_Rfiderror.h	15;"	d
+ICC_ERR_READ_SERIAL_NUM	include/ipi_Rfiderror.h	9;"	d
+ICC_ERR_READ_SERIAL_STANDARD	include/ipi_Rfiderror.h	11;"	d
+ICC_ERR_READ_SMX	include/ipi_Rfiderror.h	107;"	d
+ICC_ERR_READ_TXPINFO	include/ipi_Rfiderror.h	17;"	d
+ICC_ERR_READ_VALUE	include/ipi_Rfiderror.h	49;"	d
+ICC_ERR_READ_VALUE_DECREMENT	include/ipi_Rfiderror.h	54;"	d
+ICC_ERR_READ_VALUE_INCREMENT	include/ipi_Rfiderror.h	52;"	d
+ICC_ERR_RESP_CHECKSUM	include/Txn_card_code.h	54;"	d
+ICC_ERR_RESP_CHECKSUM	include/ipi_Rfiderror.h	132;"	d
+ICC_ERR_RFID_INIT	include/Txn_card_code.h	34;"	d
+ICC_ERR_RFID_INIT	include/ipi_Rfiderror.h	6;"	d
+ICC_ERR_SCOSTA_CMD	include/Txn_card_code.h	50;"	d
+ICC_ERR_SCOSTA_CMD	include/ipi_Rfiderror.h	133;"	d
+ICC_ERR_SECURING_CARD	include/ipi_Rfiderror.h	202;"	d
+ICC_ERR_SELECT_DEVICE	include/ipi_Rfiderror.h	117;"	d
+ICC_ERR_SEL_APPLET	include/ipi_Rfiderror.h	106;"	d
+ICC_ERR_SERIAL_CLOSE	include/ipi_Rfiderror.h	66;"	d
+ICC_ERR_SERIAL_CONFIGURE	include/Txn_card_code.h	64;"	d
+ICC_ERR_SERIAL_CONFIGURE	include/ipi_Rfiderror.h	7;"	d
+ICC_ERR_SIMUL_DESFIRE	include/ipi_Rfiderror.h	152;"	d
+ICC_ERR_TIMEOUT	include/ipd_Serial.h	51;"	d
+ICC_ERR_UID_SELECT	include/ipi_Rfiderror.h	91;"	d
+ICC_ERR_VERSION_MISMATCH	include/ipi_Rfiderror.h	207;"	d
+ICC_ERR_WRITE_BLOCK	include/ipi_Rfiderror.h	65;"	d
+ICC_ERR_WRITE_CARD_LIST_COMMAND	include/ipi_Rfiderror.h	43;"	d
+ICC_ERR_WRITE_CARD_TYPE_COMMAND	include/ipi_Rfiderror.h	111;"	d
+ICC_ERR_WRITE_DESFIRE	include/ipi_Rfiderror.h	193;"	d
+ICC_ERR_WRITE_DUMMY_TXION	include/ipi_Rfiderror.h	200;"	d
+ICC_ERR_WRITE_EEPROM	include/ipi_Rfiderror.h	127;"	d
+ICC_ERR_WRITE_FSINFO	include/ipi_Rfiderror.h	18;"	d
+ICC_ERR_WRITE_MIFARE	include/ipi_Rfiderror.h	114;"	d
+ICC_ERR_WRITE_SEARCH_TXP	include/ipi_Rfiderror.h	12;"	d
+ICC_ERR_WRITE_SELECT_SEGMENT	include/ipi_Rfiderror.h	20;"	d
+ICC_ERR_WRITE_SELECT_TXP	include/ipi_Rfiderror.h	14;"	d
+ICC_ERR_WRITE_SERIAL_NUM	include/ipi_Rfiderror.h	8;"	d
+ICC_ERR_WRITE_SERIAL_STANDARD	include/ipi_Rfiderror.h	10;"	d
+ICC_ERR_WRITE_SMX	include/ipi_Rfiderror.h	113;"	d
+ICC_ERR_WRITE_TXPINFO	include/ipi_Rfiderror.h	16;"	d
+ICC_ERR_WRITE_VALUE	include/ipi_Rfiderror.h	46;"	d
+ICC_ERR_WRONG_FPFILE_ID	include/ipi_Rfiderror.h	209;"	d
+IC_DEV_HANDLE	include/Txn_card_code.h	/^typedef IC_VOID * IC_DEV_HANDLE;$/;"	t
+IC_DOUBLE	include/ipd_base.h	/^typedef double            IC_DOUBLE ;$/;"	t
+IC_ERR	include/Txn_card_code.h	27;"	d
+IC_ERR_AUA_CONFIG_FILE	include/error_codes.h	27;"	d
+IC_ERR_AUA_KEY	include/error_codes.h	26;"	d
+IC_ERR_BIN	include/error_codes.h	23;"	d
+IC_ERR_CENTRL_SRV	include/error_codes.h	16;"	d
+IC_ERR_DEVICE_FILE	include/ipd_Serial.h	45;"	d
+IC_ERR_ENCRYPT	include/error_codes.h	25;"	d
+IC_ERR_GET_DTR	include/ipd_Serial.h	50;"	d
+IC_ERR_GET_RTS	include/ipd_Serial.h	48;"	d
+IC_ERR_GET_RTS_DTR	include/ipd_Serial.h	52;"	d
+IC_ERR_INV_AUTH	include/error_codes.h	21;"	d
+IC_ERR_INV_PINCODE	include/error_codes.h	20;"	d
+IC_ERR_LTS_KEYEXP	include/error_codes.h	33;"	d
+IC_ERR_NETWORK_DOWN	include/error_codes.h	6;"	d
+IC_ERR_NETWORK_DROPPED	include/error_codes.h	8;"	d
+IC_ERR_NETWORK_UNREACHABLE	include/error_codes.h	7;"	d
+IC_ERR_NORESP	include/error_codes.h	31;"	d
+IC_ERR_PARSE	include/error_codes.h	32;"	d
+IC_ERR_PARSE_CUST_NAME	include/error_codes.h	28;"	d
+IC_ERR_PINCODE_LEN	include/error_codes.h	19;"	d
+IC_ERR_PROTOBUFF	include/error_codes.h	24;"	d
+IC_ERR_RESP	include/error_codes.h	17;"	d
+IC_ERR_RM_LTS_FILE	include/error_codes.h	29;"	d
+IC_ERR_SERIAL_BREAK	include/ipd_Serial.h	37;"	d
+IC_ERR_SERIAL_CLOSE	include/ipd_Serial.h	46;"	d
+IC_ERR_SERIAL_INVALID_CHSIZE	include/Txn_card_code.h	35;"	d
+IC_ERR_SERIAL_INVALID_CHSIZE	include/ipd_Serial.h	39;"	d
+IC_ERR_SERIAL_INVALID_PARITY_VAL	include/Txn_card_code.h	68;"	d
+IC_ERR_SERIAL_INVALID_PARITY_VAL	include/ipd_Serial.h	40;"	d
+IC_ERR_SERIAL_INVALID_READ_COUNT	include/Txn_card_code.h	53;"	d
+IC_ERR_SERIAL_INVALID_READ_COUNT	include/Txn_card_code.h	62;"	d
+IC_ERR_SERIAL_INVALID_READ_COUNT	include/ipd_Serial.h	42;"	d
+IC_ERR_SERIAL_INVALID_STOPBIT	include/Txn_card_code.h	61;"	d
+IC_ERR_SERIAL_INVALID_STOPBIT	include/ipd_Serial.h	41;"	d
+IC_ERR_SERIAL_INVALID_WRITE_COUNT	include/Txn_card_code.h	37;"	d
+IC_ERR_SERIAL_INVALID_WRITE_COUNT	include/ipd_Serial.h	38;"	d
+IC_ERR_SERIAL_OPEN	include/Txn_card_code.h	29;"	d
+IC_ERR_SERIAL_OPEN	include/ipd_Serial.h	34;"	d
+IC_ERR_SERIAL_PORT_SETTING	include/Txn_card_code.h	63;"	d
+IC_ERR_SERIAL_PORT_SETTING	include/Txn_card_code.h	67;"	d
+IC_ERR_SERIAL_PORT_SETTING	include/ipd_Serial.h	36;"	d
+IC_ERR_SERIAL_READ	include/Txn_card_code.h	38;"	d
+IC_ERR_SERIAL_READ	include/ipd_Serial.h	43;"	d
+IC_ERR_SERIAL_SET_ATTRIB	include/Txn_card_code.h	66;"	d
+IC_ERR_SERIAL_SET_ATTRIB	include/ipd_Serial.h	35;"	d
+IC_ERR_SERIAL_TIMEOUT	include/ipd_Serial.h	54;"	d
+IC_ERR_SERIAL_WRITE	include/Txn_card_code.h	41;"	d
+IC_ERR_SERIAL_WRITE	include/ipd_Serial.h	44;"	d
+IC_ERR_SET_DTR	include/ipd_Serial.h	49;"	d
+IC_ERR_SET_RTS	include/ipd_Serial.h	47;"	d
+IC_ERR_SET_RTS_DTR	include/ipd_Serial.h	53;"	d
+IC_ERR_STAN_RRN	include/error_codes.h	18;"	d
+IC_ERR_TXNID	include/error_codes.h	15;"	d
+IC_ERR_ZERO_ACC_ADDED	include/ipi_Rfiderror.h	169;"	d
+IC_FLOAT	include/ipd_base.h	/^typedef float             IC_FLOAT ;$/;"	t
+IC_INT16	include/ipd_base.h	/^typedef short             IC_INT16 ;$/;"	t
+IC_INT32	include/Txn_card_code.h	/^typedef int               IC_INT32 ;$/;"	t
+IC_INT32	include/ipd_base.h	/^typedef int               IC_INT32 ;$/;"	t
+IC_INT64	include/ipd_base.h	/^typedef long              IC_INT64 ;$/;"	t
+IC_INT8	include/Txn_card_code.h	/^typedef char              IC_INT8 ;$/;"	t
+IC_INT8	include/ipd_base.h	/^typedef char              IC_INT8 ;$/;"	t
+IC_MIFARE_UNSECURED	include/ipi_Rfiderror.h	161;"	d
+IC_NULL	include/ipd_base.h	32;"	d
+IC_OK	include/Txn_card_code.h	26;"	d
+IC_OK	include/error_codes.h	4;"	d
+IC_RETCODE	include/Txn_card_code.h	13;"	d
+IC_UINT16	include/Txn_card_code.h	/^typedef unsigned short    IC_UINT16 ;$/;"	t
+IC_UINT16	include/ipd_base.h	/^typedef unsigned short    IC_UINT16 ;$/;"	t
+IC_UINT32	include/Txn_card_code.h	/^typedef unsigned int      IC_UINT32 ;$/;"	t
+IC_UINT32	include/ipd_base.h	/^typedef unsigned int      IC_UINT32 ;$/;"	t
+IC_UINT64	include/Txn_card_code.h	/^typedef unsigned long     IC_UINT64 ;$/;"	t
+IC_UINT64	include/ipd_base.h	/^typedef unsigned long     IC_UINT64 ;$/;"	t
+IC_UINT8	include/Txn_card_code.h	/^typedef unsigned char     IC_UINT8 ;$/;"	t
+IC_UINT8	include/ipd_base.h	/^typedef unsigned char     IC_UINT8 ;$/;"	t
+IC_VOID	include/Txn_card_code.h	/^typedef void              IC_VOID ;$/;"	t
+IC_VOID	include/ipd_base.h	/^typedef void              IC_VOID ;$/;"	t
+INVALID_DECIMAL_VALUE	include/ipi_Rfiderror.h	70;"	d
+InitializeCard	src/Txn_card_code.c	/^int InitializeCard()$/;"	f
+IsContactCardActive	src/Txn_card_code.c	/^IC_RETCODE  IsContactCardActive( IC_VOID *pst_dev_handle )$/;"	f
+IsSameCardPresent	src/Txn_card_code.c	/^IC_RETCODE IsSameCardPresent(IC_DEV_HANDLE lg_devHandle, ST_USR_CARD_DET st_usrdet)$/;"	f
+KEY_MISMATCH	include/ipi_Rfiderror.h	167;"	d
+LDFLAG	Makefile	/^LDFLAG = \/opt\/freescale\/usr\/local\/gcc-4.1.2-glibc-2.5-nptl-3\/arm-none-linux-gnueabi\/arm-none-linux-gnueabi\/sysroot\/usr\/include\/$/;"	m
+LENGTH_FRAME	include/Txn_card_code.h	57;"	d
+LIB_DIR	Makefile	/^LIB_DIR = lib$/;"	m
+MAX_AC_ON_CARD	include/Txn_card_code.h	72;"	d
+MAX_CARDS	include/Txn_card_code.h	80;"	d
+MAX_CARDSDETECT	include/Txn_card_code.h	65;"	d
+MAX_SCHEME_ON_ACCOUNT	include/Txn_card_code.h	75;"	d
+MAX_UID_SIZE	include/Txn_card_code.h	81;"	d
+MIFARE_CARD	include/Txn_card_code.h	/^enum cards{MIFARE_CARD=1, SMARTMX_1, SMARTMX_2, SMARTMX_3, SCOSTA, BC_SAM, BC_INTSAM, DESFIRE};$/;"	e	enum:cards
+NAME_LEN	include/Txn_card_code.h	77;"	d
+OBJ	Makefile	/^OBJ = $(patsubst $(SRCDIR)\/%.c, $(OBJDIR)\/%.o, $(SRC))$/;"	m
+OBJDIR	Makefile	/^OBJDIR = obj$/;"	m
+OSType	include/Txn_card_code.h	/^	IC_INT32   OSType;$/;"	m	struct:CardInfo
+OpeningMode	include/ipd_Serial.h	/^typedef enum OpeningMode$/;"	g
+PARSE_ACC_INFO_FAIL	include/error_codes.h	37;"	d
+PARTIAL_PERSO	include/ipi_Rfiderror.h	166;"	d
+PLATFORM_H	include/ipd_platform.h	26;"	d
+Parityconfig	include/ipd_Serial.h	/^typedef enum Parityconfig $/;"	g
+REQID_LEN	include/Txn_card_code.h	78;"	d
+RFID_ERR_H	include/ipi_Rfiderror.h	2;"	d
+SCOSTA	include/Txn_card_code.h	/^enum cards{MIFARE_CARD=1, SMARTMX_1, SMARTMX_2, SMARTMX_3, SCOSTA, BC_SAM, BC_INTSAM, DESFIRE};$/;"	e	enum:cards
+SCOSTA_APDU_COMMAND	include/Txn_card_code.h	47;"	d
+SCOSTA_CARD_POWERUP_3V_CMD_LEN	include/Txn_card_code.h	45;"	d
+SCOSTA_FRAME_START	include/Txn_card_code.h	46;"	d
+SCOSTA_GET_CHIP_SERIAL_CT	include/Txn_card_code.h	42;"	d
+SCOSTA_GET_CHIP_SERIAL_LEN_CT	include/Txn_card_code.h	43;"	d
+SCOSTA_POWERUP_3V	include/Txn_card_code.h	44;"	d
+SECOND_AUTH_FARME_FAIL	include/error_codes.h	41;"	d
+SECOND_AUTH_PARSE_FAIL	include/error_codes.h	42;"	d
+SMARTMX_1	include/Txn_card_code.h	/^enum cards{MIFARE_CARD=1, SMARTMX_1, SMARTMX_2, SMARTMX_3, SCOSTA, BC_SAM, BC_INTSAM, DESFIRE};$/;"	e	enum:cards
+SMARTMX_2	include/Txn_card_code.h	/^enum cards{MIFARE_CARD=1, SMARTMX_1, SMARTMX_2, SMARTMX_3, SCOSTA, BC_SAM, BC_INTSAM, DESFIRE};$/;"	e	enum:cards
+SMARTMX_3	include/Txn_card_code.h	/^enum cards{MIFARE_CARD=1, SMARTMX_1, SMARTMX_2, SMARTMX_3, SCOSTA, BC_SAM, BC_INTSAM, DESFIRE};$/;"	e	enum:cards
+SRC	Makefile	/^SRC = $(wildcard $(SRCDIR)\/*.c)$/;"	m
+SRCDIR	Makefile	/^SRCDIR = src$/;"	m
+STX_FRAME	include/Txn_card_code.h	59;"	d
+ST_ACCINFO	include/Txn_card_code.h	/^}ST_ACCINFO;$/;"	t	typeref:struct:ACCInfo
+ST_ACC_BASICDET	include/Txn_card_code.h	/^}ST_ACC_BASICDET;    $/;"	t	typeref:struct:AccBasicDet
+ST_ACC_GENDET	include/Txn_card_code.h	/^}ST_ACC_GENDET;$/;"	t	typeref:struct:AccGenDet
+ST_ADDITIONAL_GROUP_INFO	include/Txn_card_code.h	/^}ST_ADDITIONAL_GROUP_INFO;$/;"	t	typeref:struct:Additional_group_info
+ST_CARD	include/Txn_card_code.h	/^}ST_CARD;$/;"	t	typeref:struct:st_card
+ST_CARDINFO	include/Txn_card_code.h	/^}ST_CARDINFO;$/;"	t	typeref:struct:CardInfo
+ST_CONFIGURE_PORT	include/ipd_Serial.h	/^}ST_CONFIGURE_PORT;$/;"	t	typeref:struct:ConfigurePort
+ST_CONN_SERIAL	include/ipd_Serial.h	/^	}ST_CONN_SERIAL;$/;"	t	typeref:struct:conn_serial
+ST_DEV_HANDLE	include/Txn_card_code.h	/^}ST_DEV_HANDLE;$/;"	t	typeref:struct:dev_handle
+ST_GROUP_CUST_INFO	include/Txn_card_code.h	/^}ST_GROUP_CUST_INFO;$/;"	t	typeref:struct:group_Cust_info
+ST_RFID_DEV_HANDLE	include/Txn_card_code.h	/^}ST_RFID_DEV_HANDLE;$/;"	t	typeref:struct:rfid_dev_handle
+ST_SCHEME_INFO	include/Txn_card_code.h	/^}ST_SCHEME_INFO;$/;"	t	typeref:struct:SchemeList
+ST_USRBAL_DET	include/Txn_card_code.h	/^}ST_USRBAL_DET;$/;"	t	typeref:struct:UsrBalDet
+ST_USR_CARD_DET	include/Txn_card_code.h	/^}ST_USR_CARD_DET;$/;"	t	typeref:struct:UserCardDet
+ST_USR_TRANS_STAT	include/Txn_card_code.h	/^}ST_USR_TRANS_STAT;$/;"	t	typeref:struct:UserTransStatus
+SchemeList	include/Txn_card_code.h	/^typedef struct SchemeList$/;"	s
+SetBaudrate_gl14	src/Txn_card_code.c	/^int SetBaudrate_gl14(void)$/;"	f
+Stopbitconfig	include/ipd_Serial.h	/^typedef enum Stopbitconfig $/;"	g
+Swflowcontrolconfig	include/ipd_Serial.h	/^typedef enum Swflowcontrolconfig $/;"	g
+TARGET	Makefile	/^TARGET = exe\/Card_Test_Tool$/;"	m
+TERMINAL_ID_LEN	include/Txn_card_code.h	74;"	d
+TXN_CARD_CODE_H	include/Txn_card_code.h	2;"	d
+UID_BUFLEN	include/Txn_card_code.h	49;"	d
+UID_LEN	include/Txn_card_code.h	48;"	d
+UID_LENGTH	include/Txn_card_code.h	56;"	d
+UserCardDet	include/Txn_card_code.h	/^typedef struct UserCardDet$/;"	s
+UserTransStatus	include/Txn_card_code.h	/^typedef struct UserTransStatus$/;"	s
+UsrBalDet	include/Txn_card_code.h	/^typedef struct UsrBalDet$/;"	s
+VIRTUAL_CARD	include/Txn_card_code.h	/^	VIRTUAL_CARD$/;"	e	enum:__anon1
+_SERIAL_H_	include/ipd_Serial.h	25;"	d
+__FUNCTION	include/ipi_Rfiderror.h	215;"	d
+__FUNCTION__	include/ipi_Rfiderror.h	213;"	d
+acCardName	include/Txn_card_code.h	/^	IC_INT8 acCardName[21];$/;"	m	struct:group_Cust_info
+astAccInfo	include/Txn_card_code.h	/^	ST_ACCINFO astAccInfo[MAX_AC_ON_CARD]; $/;"	m	struct:CardInfo
+astGroupCustInfo	include/Txn_card_code.h	/^	ST_GROUP_CUST_INFO astGroupCustInfo[6];$/;"	m	struct:Additional_group_info
+astSchemeInfo	include/Txn_card_code.h	/^	ST_SCHEME_INFO  astSchemeInfo[MAX_SCHEME_ON_ACCOUNT];$/;"	m	struct:AccBasicDet
+aucACCNO	include/Txn_card_code.h	/^	IC_INT8 aucACCNO[ACC_LEN]; $/;"	m	struct:ACCInfo
+aucAcHolderName	include/Txn_card_code.h	/^	IC_UINT8   aucAcHolderName[NAME_LEN +1];$/;"	m	struct:AccGenDet
+aucAcNo	include/Txn_card_code.h	/^	IC_INT8   aucAcNo[ACC_LEN+1];$/;"	m	struct:AccGenDet
+aucBankAcNo	include/Txn_card_code.h	/^	IC_UINT8   aucBankAcNo[BANK_ACC_LEN + 1]; \/\/Place Holder for Application$/;"	m	struct:AccGenDet
+aucCardNo	include/Txn_card_code.h	/^	IC_INT8   aucCardNo[CARDNO_LEN+1];$/;"	m	struct:AccGenDet
+aucCardNum	include/Txn_card_code.h	/^	IC_INT8 aucCardNum[30];$/;"	m	struct:group_Cust_info
+aucExpiryDate	include/Txn_card_code.h	/^	IC_UINT8   aucExpiryDate[EXPDATE_LEN];$/;"	m	struct:AccBasicDet
+aucPort	include/ipd_Serial.h	/^		IC_UINT8  aucPort[50];$/;"	m	struct:conn_serial
+aucReqID	include/Txn_card_code.h	/^	IC_INT8   aucReqID[REQID_LEN];$/;"	m	struct:AccGenDet
+aucTerminalID	include/Txn_card_code.h	/^	IC_INT8   aucTerminalID[TERMINAL_ID_LEN+7];$/;"	m	struct:AccBasicDet
+aucUIDBuffer	src/Txn_card_code.c	/^IC_UINT8 aucUIDBuffer[MAX_CARDS][MAX_UID_SIZE];$/;"	v
+aucUidBuf	include/Txn_card_code.h	/^	IC_UINT8 aucUidBuf[UID_LEN];$/;"	m	struct:st_card
+baudrate	include/ipd_Serial.h	/^	IC_UINT32 baudrate;          \/\/Setting the Appropriate Baud Rate for the Serial port$/;"	m	struct:ConfigurePort
+c_time	include/ipd_Serial.h	/^	IC_UINT32 c_time;		\/\/Time in milliseconds for the first character to be read$/;"	m	struct:ConfigurePort
+calculate_crc	src/Txn_card_code.c	/^IC_UINT8 calculate_crc(IC_UINT8 *buf, IC_UINT32 len)$/;"	f
+cardidentity	src/Txn_card_code.c	/^IC_UINT32 cardidentity[10]={0,};$/;"	v
+cardindex	src/Txn_card_code.c	/^IC_UINT32 cardindex = 0;$/;"	v
+cardphyidentity	src/Txn_card_code.c	/^IC_UINT32 cardphyidentity[10]={0,};$/;"	v
+cards	include/Txn_card_code.h	/^enum cards{MIFARE_CARD=1, SMARTMX_1, SMARTMX_2, SMARTMX_3, SCOSTA, BC_SAM, BC_INTSAM, DESFIRE};$/;"	g
+chsize	include/ipd_Serial.h	/^	IC_UINT8 chsize:2;		 \/\/5,6,7,8 data bits options enabled 	$/;"	m	struct:ConfigurePort
+conn_serial	include/ipd_Serial.h	/^typedef  struct conn_serial  {$/;"	s
+dev_handle	include/Txn_card_code.h	/^typedef struct dev_handle$/;"	s
+devtype	include/Txn_card_code.h	/^typedef enum devtype$/;"	g
+eACCStat	include/Txn_card_code.h	/^typedef enum eACCStat \/* Modified by Kiran P 27-1-07, changed eCardStat to eACCStat *\/$/;"	g
+eACCType	include/Txn_card_code.h	/^	E_ACCTYPE  eACCType;                                \/\/ACCType  : E_DEPT or E_LOAN$/;"	m	struct:AccBasicDet
+eAccStatus	include/Txn_card_code.h	/^	E_ACCSTAT  eAccStatus;   \/\/ACCSTATUS: Active or Blocked or Credit freezed or Debit Freeze $/;"	m	struct:AccBasicDet
+eCardStat	include/Txn_card_code.h	/^typedef enum eCardStat \/* Added by Manish *\/$/;"	g
+eCardStatus	include/Txn_card_code.h	/^	E_CARDSTAT eCardStatus;$/;"	m	struct:CardInfo
+eCardType	include/Txn_card_code.h	/^	E_CARDTYPE eCardType;$/;"	m	struct:CardInfo
+eCardType	include/Txn_card_code.h	/^typedef enum eCardType$/;"	g
+eReqStat	include/Txn_card_code.h	/^typedef enum eReqStat$/;"	g
+eReqStatus	include/Txn_card_code.h	/^	E_REQSTAT  eReqStatus;$/;"	m	struct:AccGenDet
+eReqTyp	include/Txn_card_code.h	/^typedef enum eReqTyp$/;"	g
+eReqType	include/Txn_card_code.h	/^	E_REQTYP   eReqType;$/;"	m	struct:AccGenDet
+eTransType	include/Txn_card_code.h	/^typedef enum eTransType$/;"	g
+fb	include/Txn_card_code.h	/^	IC_INT8 *fb; \/\/ Frame Buffer for Display$/;"	m	struct:dev_handle
+fb	include/Txn_card_code.h	/^	IC_INT8 *fb; \/\/ Frame Buffer for Display$/;"	m	struct:rfid_dev_handle
+fd	include/Txn_card_code.h	/^	IC_INT32 fd; \/\/ File Descriptor - USB to Serial Device$/;"	m	struct:dev_handle
+fd	include/Txn_card_code.h	/^	int fd;$/;"	m	struct:rfid_dev_handle
+g_devHandle	src/Txn_card_code.c	/^IC_DEV_HANDLE g_devHandle;$/;"	v
+getErrStr	src/Txn_card_code.c	/^IC_UINT8  getErrStr(IC_UINT8 SW1, IC_UINT8 SW2 )$/;"	f
+group_Cust_info	include/Txn_card_code.h	/^typedef struct group_Cust_info$/;"	s
+hw_flowcontrol	include/ipd_Serial.h	/^	IC_UINT8 hw_flowcontrol:1;  \/\/Enabling and Disabling Hardware Flow Control$/;"	m	struct:ConfigurePort
+iDepInDay	include/Txn_card_code.h	/^	IC_UINT32 iDepInDay;        \/* +ve *\/$/;"	m	struct:UsrBalDet
+iDepLimPerDay	include/Txn_card_code.h	/^	IC_UINT32 iDepLimPerDay;    \/* +ve *\/$/;"	m	struct:UsrBalDet
+iDepLimPerTrans	include/Txn_card_code.h	/^	IC_UINT32 iDepLimPerTrans;   \/* +ve *\/$/;"	m	struct:UsrBalDet
+iLowerBalAllowd	include/Txn_card_code.h	/^	IC_INT32 iLowerBalAllowd;   \/* +ve, -ve or 0 *\/$/;"	m	struct:UsrBalDet
+iWdrLimPerTrans	include/Txn_card_code.h	/^	IC_UINT32 iWdrLimPerTrans;   \/* +ve *\/$/;"	m	struct:UsrBalDet
+iWithDrawInDay	include/Txn_card_code.h	/^	IC_UINT32 iWithDrawInDay;    \/* +ve *\/$/;"	m	struct:UsrBalDet
+iWithDrawLimPerDay	include/Txn_card_code.h	/^	IC_UINT32 iWithDrawLimPerDay;\/* +ve *\/$/;"	m	struct:UsrBalDet
+ipd_SerialConfigure	src/Txn_card_code.c	/^IC_INT32 ipd_SerialConfigure( IC_INT32 fd, ST_CONFIGURE_PORT *pst_portsettings )$/;"	f
+ipd_SerialOpen	src/Txn_card_code.c	/^IC_INT32 ipd_SerialOpen(IC_UINT8 *pc_port, IC_INT32 i_mode)$/;"	f
+ipd_SerialReadCt	src/Txn_card_code.c	/^IC_INT32 ipd_SerialReadCt( IC_INT32 fd, IC_UINT8 *pucBuffer, IC_INT32 iCount, IC_UINT32 * piNRead )$/;"	f
+ipd_SerialWrite	src/Txn_card_code.c	/^IC_INT32 ipd_SerialWrite( IC_INT32 fd,IC_UINT8 *pucBuffer,IC_INT32 iCount ,IC_UINT32 * piNWrite )$/;"	f
+lSpeed	include/ipd_Serial.h	/^		IC_UINT64  lSpeed;$/;"	m	struct:conn_serial
+lg_devHandle	src/Txn_card_code.c	/^IC_DEV_HANDLE lg_devHandle;$/;"	v
+main	src/Txn_card_code.c	/^int main()$/;"	f
+parity	include/ipd_Serial.h	/^	IC_UINT8 parity :2;	 \/\/No Parity,Even Parity &Odd parity Options enabled$/;"	m	struct:ConfigurePort
+rfid_dev_handle	include/Txn_card_code.h	/^typedef struct rfid_dev_handle$/;"	s
+select_card_vt	src/Txn_card_code.c	/^IC_RETCODE select_card_vt(IC_VOID *pst_dev_handle, IC_UINT32 CardNum)$/;"	f
+stAccBasicDet	include/Txn_card_code.h	/^	ST_ACC_BASICDET stAccBasicDet;$/;"	m	struct:UserCardDet
+stAccGenDet	include/Txn_card_code.h	/^	ST_ACC_GENDET stAccGenDet;$/;"	m	struct:UserCardDet
+stAccInfo	include/Txn_card_code.h	/^	ST_ACCINFO stAccInfo;$/;"	m	struct:UserCardDet
+stCardInfo	include/Txn_card_code.h	/^	ST_CARDINFO stCardInfo;$/;"	m	struct:UserCardDet
+stCardUID	include/Txn_card_code.h	/^	ST_CARD    stCardUID;  \/\/Place Holder for Application $/;"	m	struct:AccGenDet
+stUsrBalDet	include/Txn_card_code.h	/^	ST_USRBAL_DET stUsrBalDet;$/;"	m	struct:UserCardDet
+stUsrTransStat	include/Txn_card_code.h	/^	ST_USR_TRANS_STAT stUsrTransStat;$/;"	m	struct:UserCardDet
+st_card	include/Txn_card_code.h	/^typedef struct st_card$/;"	s
+st_carduid	include/Txn_card_code.h	/^	ST_CARD st_carduid;$/;"	m	struct:UserCardDet
+st_grp_cust_info	include/Txn_card_code.h	/^	ST_ADDITIONAL_GROUP_INFO st_grp_cust_info;$/;"	m	struct:UserCardDet
+stopbit	include/ipd_Serial.h	/^	IC_UINT8 stopbit:2; 	 \/\/1 ,1.5,2 stopbits enabled option$/;"	m	struct:ConfigurePort
+sw_flowcontrol	include/ipd_Serial.h	/^	IC_UINT8 sw_flowcontrol:1;  \/\/Enabling and Disabling Software Flow Control $/;"	m	struct:ConfigurePort
+ucACCType	include/Txn_card_code.h	/^	IC_UINT8 ucACCType; \/\/ 1st Nibble: Acc Sno, 2nd Nibble: Acc Type$/;"	m	struct:ACCInfo
+ucAccCount	include/Txn_card_code.h	/^	IC_UINT8   ucAccCount;$/;"	m	struct:CardInfo
+ucAccSubType	include/Txn_card_code.h	/^	IC_UINT8   ucAccSubType;       \/\/ FIXED_LOAN,RUNNING_LOAN,SB_DEPT   $/;"	m	struct:AccBasicDet
+ucAccType	include/Txn_card_code.h	/^	IC_UINT8 ucAccType;$/;"	m	struct:group_Cust_info
+ucBCOverride	include/Txn_card_code.h	/^	IC_UINT8 ucBCOverride;$/;"	m	struct:UserCardDet
+ucCountTrans	include/Txn_card_code.h	/^	IC_UINT8 ucCountTrans;          \/\/#LT Cnt \/\/Added to Unsigned char Manish $/;"	m	struct:UserTransStatus
+ucGroupVersion	include/Txn_card_code.h	/^	IC_UINT8 ucGroupVersion;$/;"	m	struct:Additional_group_info
+ucIMax	include/Txn_card_code.h	/^	IC_UINT8 ucIMax;\/\/Maximum Installments permitted for the Rec Account $/;"	m	struct:AccGenDet
+ucLastTransIndex	include/Txn_card_code.h	/^	IC_UINT8 ucLastTransIndex;      \/\/#LT Indx \/\/Added to Unsigned char Manish $/;"	m	struct:UserTransStatus
+ucLogNumTgt	src/Txn_card_code.c	/^IC_UINT8  ucLogNumTgt;$/;"	v
+ucNoOfPeople	include/Txn_card_code.h	/^	IC_UINT8 ucNoOfPeople;$/;"	m	struct:Additional_group_info
+ucRfidStandard	include/Txn_card_code.h	/^	IC_UINT8 ucRfidStandard;$/;"	m	struct:st_card
+ucSchemeCount	include/Txn_card_code.h	/^	IC_UINT8   ucSchemeCount;$/;"	m	struct:AccBasicDet
+ucSchemeID	include/Txn_card_code.h	/^	IC_UINT8  ucSchemeID; \/\/ 1st Nibble: Acc Sno, 2nd Nibble: Acc Type$/;"	m	struct:SchemeList
+ucTotalTrans	include/Txn_card_code.h	/^	IC_UINT8 ucTotalTrans;          \/\/#LT Lim   \/\/Added to Unsigned char Manish $/;"	m	struct:UserTransStatus
+ucTransCountPerDay	include/Txn_card_code.h	/^	IC_UINT8 ucTransCountPerDay;    \/\/#TxCnt \/\/Added to Unsigned char Manish $/;"	m	struct:UserTransStatus
+ucTransLimPerDay	include/Txn_card_code.h	/^	IC_UINT8 ucTransLimPerDay;      \/\/#Tx lim$/;"	m	struct:UserTransStatus
+ucUidLen	include/Txn_card_code.h	/^	IC_UINT8 ucUidLen;$/;"	m	struct:st_card
+ucValMax	include/Txn_card_code.h	/^	IC_UINT32  ucValMax;\/\/ Maximum value of the installment$/;"	m	struct:AccGenDet
+ucValMin	include/Txn_card_code.h	/^	IC_UINT16  ucValMin;\/\/Only in Case of Recu Loan Account the fields gets filled in  ; Minimum Value of the Installment$/;"	m	struct:AccGenDet
+ucValMultiple	include/Txn_card_code.h	/^	IC_UINT16  ucValMultiple; \/\/Multiple Value that to be allowed for the installment$/;"	m	struct:AccGenDet
+ucVersion	include/Txn_card_code.h	/^	IC_UINT8   ucVersion;     $/;"	m	struct:AccBasicDet
+ucVersion	include/Txn_card_code.h	/^	IC_UINT8   ucVersion;$/;"	m	struct:CardInfo
+uhACCIndex	include/Txn_card_code.h	/^	IC_UINT16 uhACCIndex;$/;"	m	struct:ACCInfo
+uhLangOpt	include/Txn_card_code.h	/^	IC_UINT16 uhLangOpt;      $/;"	m	struct:UserTransStatus
+uhSchemeIndex	include/Txn_card_code.h	/^	IC_UINT16 uhSchemeIndex;$/;"	m	struct:SchemeList
+uiFpFileId	include/Txn_card_code.h	/^	IC_UINT32 uiFpFileId;$/;"	m	struct:group_Cust_info
+vmin	include/ipd_Serial.h	/^	IC_UINT8 vmin;		\/\/Minimum number of characters to be read$/;"	m	struct:ConfigurePort
